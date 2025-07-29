@@ -37,7 +37,7 @@ char fltat1(string s) {
 
 int main() {
 
-    string s = "First letter to appeare twice";
+    string s = "Fweiirst letter to appeare twice";
     
     cout << fltat(s) << endl;
 
