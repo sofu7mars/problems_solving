@@ -10,7 +10,7 @@ using namespace std;
 
 int main() {
 
-    int arr[] = {4, 5, 6, 2, 3};
+    int arr[] = {4, 5, 6, 1, 2, 3};
 
     int size = sizeof(arr) / sizeof(arr[0]);
     int l = 0, r = size - 1;
