@@ -18,7 +18,7 @@ int main() {
     cout << ((3 + 4) / 2) << endl;
     
     while (l < r) {
-        if (arr[l] > arr[r]) {
+        if (arr[m] > arr[r]) {
             l = m + 1;
         } else {
             r = m;
