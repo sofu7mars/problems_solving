@@ -3,11 +3,11 @@
 #include <memory>
 #include <set>
 #include <stack>
-#include <map>
+#include <unordered_map>
 using namespace std;
 
 void two_sum(int *arr, int size, int *output_arr){
-    map<int, int> m;
+    unordered_map<int, int> m;
         int target = 4;
         for (int i = 0; i < size; i++) {
             int complement = target - arr[i];
