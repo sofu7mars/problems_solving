@@ -18,10 +18,10 @@ int main() {
     cout << ((3 + 4) / 2) << endl;
     
     while (l < r) {
-        if (arr[m] > arr[r]) {
-            l = m + 1;
+        if (arr[m] <= arr[r]) {
+            r = m - 1;
         } else {
-            r = m;
+            l = m + 1;
         }
         m = (int) ((l + r) / 2); 
     } 
