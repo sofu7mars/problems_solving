@@ -25,7 +25,7 @@ int main() {
     cout << *i << endl;
     while(*i == '0') {
         count0++;
-        *i--;
+        i--;
     }
     cout << count0 << endl;
     return 0;
